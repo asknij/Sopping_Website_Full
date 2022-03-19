@@ -1,0 +1,23 @@
+{
+  "name": "assignment3",
+  "version": "1.0.0",
+  "description": "grp assignment3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Ananthu santhosh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.7",
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
